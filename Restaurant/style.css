@@ -1,0 +1,569 @@
+@charset "UTF-8";
+
+@media (min-width: 1024px){
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  
+}
+
+body{
+  background: #E8E4E4;
+}
+
+main{
+  width: 100vw;
+  height: 50px;
+}
+
+main #emcimared {
+  background: red;
+  display: flex;
+  width: 100vw;
+  height: 50px;
+  justify-content: space-between;
+  
+  
+}
+
+
+
+main div #FastFood{
+  font-size: 25px;
+  padding-top: 11px;
+  color: white;
+  margin-left: auto;
+  padding-right: 30px;
+  
+}
+main div #Brasil{
+  font-size: 15px;
+  padding-top: 17px;
+  color: white;
+}
+
+main div #img{
+  margin: 3px;
+  padding-right: 10px;
+  padding-left: 30px;
+}
+main div #img img{
+  width: 17px;
+}
+
+
+
+
+
+header{
+  background: black;
+  width: 100vw;
+  height: 500px;
+}
+
+header #links{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 270px;
+  
+  
+  
+  
+}
+
+header #links a{
+  text-decoration: none;
+  color: white;
+  padding-right: 30px;
+  font-size: 15px;
+  padding-top: 8px;
+  
+}
+
+header #FF{
+  color: red;
+  padding-left: 40px;
+  padding-top: 15px;
+}
+
+header #texto{
+  padding-left: 40px;
+  padding-top: 15px;
+}
+
+header #voce{
+  color: red;
+  padding-left: 40px;
+}
+
+header #lorem{
+  color: white;
+  width: 340px;
+  padding-left: 40px;
+  padding-top: 15px;
+  font-size: 10px;
+  
+}
+
+
+
+header img{
+  width: 100vw;
+  width: 80px;
+}
+
+header div #tempero{
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  width: 600px;
+  transform: translate(0px , -510px);
+  
+}
+
+header div #Pizza{
+  
+  width: 300px;
+  position: absoute;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  transform: translate(-190px , -195px);
+  
+  
+  
+}
+
+header h1{
+  color: white;
+}
+
+header #menu{
+  padding-top: 40px;
+  padding-left: 80px;
+}
+
+header #menu a{
+  text-decoration: none;
+  color: white;
+  padding: 10px 30px 10px 30px;
+  width: 50px;
+  border-radius: 10px;
+  font-size: 13px;
+  margin-left: 25px;
+  
+}
+
+header #menu #red{
+  background: red;
+}
+
+header #menu #borda{
+  border: 2px solid white;
+}
+
+
+
+#RetanguloBranco{
+  width: 750px;
+  height: 250px;
+  background: white;
+  margin: auto;
+  margin-bottom: 30px;
+  transform: translate(0px , -75px);
+  border-radius: 20px;
+  display: flex;
+}
+
+#RetanguloBranco .principal{
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  background: red;
+  border-radius: 20px;
+  
+}
+
+#RetanguloBranco #Salada1{
+  background: url('Salada1.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom right;
+}
+#RetanguloBranco #Pizza1{
+  background: url('Pizza1.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+#RetanguloBranco #Hamburguer1{
+  background: url('Hambúrguer1.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+
+.frase1{
+  width: 370px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-size: 33px;
+  font-weight: 600;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  
+}
+
+.frase1 span{
+  color: red;
+  font-weight: 900;
+}
+
+
+.RetanguloVermelho1{
+  width: 750px;
+  height: 250px;
+  background: red;
+  margin: auto;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  display: flex;
+}
+
+ .RetanguloVermelho1 #Salada2{
+   background:
+   url("Pedidos/hamburguer-grelhado-e-batatas-fritas-ia-geradora-de-alimentos_188544-8516.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+ }
+ .RetanguloVermelho1 #Pizza1{
+   background:
+   url("Pedidos/deliciosos-croquetes-de-comida-de-perto_23-2149202667.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+ }
+ .RetanguloVermelho1 #Hamburguer1{
+   background:
+   url("Pedidos/deliciosa-composicao-em-palitos-de-queijo-venezuelano_23-2149050108.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center bottom;
+ }
+ 
+ .RetanguloVermelho1 #Salada1{
+   background:
+   url("Pedidos/vista-frontal-deliciosa-composicao-da-comida-brasileira_23-2148739224.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center right;
+ }
+ .RetanguloVermelho1 #Pizza2{
+   background:
+   url("Hambúrguer1.jpeg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+ }
+ .RetanguloVermelho1 #Hamburguer2{
+   background:
+   url("Pedidos/vista-superior-saborosas-asas-de-frango-dentro-do-prato-na-superficie-marrom-hamburguer-refeicao-almoco-sanduiche-comida-jantar-batatas-fritas-carne_140725-156891.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center bottom;
+ }
+
+.RetanguloVermelho1 .principal{
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  background: black;
+  border-radius: 20px;
+  
+}
+
+
+.area{
+  background: red;
+  max-width: 100vw;
+  min-width: 750px;
+  height: 360px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin: auto;
+}
+
+#area{
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.conteudo{
+  width: 100vw;
+  border-radius: 30px;
+  margin-top: 20px;
+  
+}
+
+.carrosel{
+  display: grid;
+  grid-auto-flow: column;
+  scroll-behavior: auto;
+  gap: 1.2rem;
+  overflow-y: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  border: 8px solid black;
+  border-radius: 34px;
+  padding: 5px 5px 5px 5px;
+}
+
+.carrosel::-webkit-scrollbar{
+  display: none;
+}
+
+.card{
+  scroll-snap-align: start;
+  border-radius: 30px;
+  min-height: 250px;
+  min-width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30px;
+  
+}
+#card1 img{
+  width: 10px;
+}
+#card1{
+  
+  
+}
+#card1 img{
+  border-radius: 30px;
+  width: 400px;
+  padding: 20px;
+  
+  
+}
+
+#card2 img{
+  border-radius: 30px;
+  width: 400px;
+  padding: 20px;
+}
+
+#card3 img{
+  border-radius: 30px;
+  width: 400px;
+  padding: 20px;
+}
+
+#card4 img{
+  border-radius: 30px;
+  width: 430px;
+  padding: 30px;
+}
+
+.card:nth-child(odd){
+  background: linear-gradient(-229deg, white, grey);
+  background: url("Hambúrguer1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  
+  
+}
+
+.card:nth-child(even) {
+  background: linear-gradient(-229deg, grey, white);
+  background:
+  url("Pedidos/vista-frontal-deliciosa-composicao-da-comida-brasileira_23-2148739224.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+
+#RetanguloClientes{
+  width: 100vw;
+  height: 400px;
+  margin: auto;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  display: flex;
+  
+}
+
+#RetanguloClientes .principal{
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  background: white;
+  border-radius: 20px;
+  
+}
+
+#RetanguloClientes .principal .imgCliente{
+  
+  display: flex;
+  justify-content: center;
+}
+#RetanguloClientes .principal .imgCliente img{
+  
+  width: 50px;
+  margin-top: 40px;
+}
+
+#RetanguloClientes .principal .opniao{
+  text-align: center;
+  padding-top: 10px;
+  font-weight: 600;
+}
+
+#RetanguloClientes .principal .ftsdosclientes{
+  margin-left: 10px;
+  margin-top: 50px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40%;
+}
+
+#RetanguloClientes .principal .nomeCliente{
+  
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  
+}
+
+#RetanguloClientes .principal .nomeCliente p{
+  margin-left: 30px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#RetanguloClientes .principal .nomeCliente .estrela{
+  width: 20px;
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+#RetanguloClientes .principal .nomeCliente .estrela img{
+  
+  width: 20px;
+}
+
+
+
+#Feedback{
+  background: black;
+  display: flex;
+  height: 400px;
+}
+
+#Feedback #inicio{
+  color: white;
+  padding-top: 40px;
+  padding-left: 40px;
+  
+}
+
+#Feedback #inicio h1{
+  color: red;
+  font-size: 50px;
+}
+#Feedback #inicio p{
+  text-align: center;
+  width: 220px;
+  margin-top: 30px;
+  
+}
+
+
+#Feedback .Contatos{
+  color: white;
+  margin: auto;
+  text-align: center;
+  width: 120px;
+  margin-top: 0px;
+  margin-left: 50px;
+  
+  
+}
+
+#Feedback .Contatos p{
+  font-size: 25px;
+  font-weight: 600;
+}
+
+#Feedback .Contatos a{
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 10px;
+}
+
+#Feedback #Contatos{
+  margin-right: 10px;
+  width: 100px;
+  color: white;
+  
+}
+#Feedback #Contatos h1{
+  font-size: 25px;
+  width: 200px;
+  text-align: center;
+  
+}
+
+#Feedback #Contatos p{
+  font-size: 15px;
+  margin-top: 10px;
+  font-weight: 400;
+  text-align: center;
+  width: 190px;
+  
+  
+}
+
+#Feedback #final{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  
+}
+
+#Feedback #final2{
+  width: 90vw;
+  display: flex;
+  margin: auto;
+  max-width: 900px;
+  
+}
+
+
+
+
+
+
+
+}
