@@ -127,7 +127,7 @@ header div #Pizza{
 }
 
 header div #Pizza img{
-  position: ;
+  
   top: 0;
   left: 0;
   width: 100%; /* Para cobrir toda a largura da div */
@@ -333,13 +333,14 @@ header #menu #borda{
   overscroll-behavior-x: contain;
   scroll-snap-type: x mandatory;
   scrollbar-width: none;
-  border: 5px solid black;
+  border: 5px solid white;
   border-radius: 34px;
   padding: 5px 5px 5px 5px;
   min-width: 370px;
   max-width: 800px;
   margin-left: 10px;
   margin: auto;
+  background: black;
   
   
 }
@@ -357,6 +358,10 @@ header #menu #borda{
   align-items: center;
   justify-content: center;
   margin-left: 3px;
+  border: .5px solid white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: px
   
 }
 #card1 img{

@@ -323,7 +323,7 @@ header #menu #borda{
   overscroll-behavior-x: contain;
   scroll-snap-type: x mandatory;
   scrollbar-width: none;
-  border: 8px solid black;
+  border: 8px solid white;
   border-radius: 34px;
   padding: 5px 5px 5px 5px;
 }
